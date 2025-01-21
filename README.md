@@ -6,3 +6,6 @@
 - bellman ford
 - dijkstra
 - floyd warshall
+
+### number theory
+- repeated squaring
