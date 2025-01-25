@@ -2,6 +2,9 @@
 ### data structure
 - segment tree
 
+### geometry
+- convex hull
+
 ### graph
 - bellman ford
 - dijkstra
