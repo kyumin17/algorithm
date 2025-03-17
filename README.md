@@ -2,6 +2,9 @@
 ### data structure
 - segment tree
 
+### dp
+- lis
+
 ### geometry
 - convex hull
 
