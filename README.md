@@ -12,7 +12,8 @@
 - bellman ford
 - dijkstra
 - floyd warshall
-- minimum spanning tree
+- mst
 
 ### number theory
 - repeated squaring
+- extended euclidean algorithm
