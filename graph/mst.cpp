@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
-#define p pair<int, pair<int, int>>
+#define ll long long
+#define p pair<ll, pair<int, int>>
 #define MAX 10000
 
 using namespace std;
@@ -9,7 +10,7 @@ int parent[MAX];
 int v, e;
 
 int find(int x) {
-	if (x == parent[x]) {
+	if (x == 0) {
 		return x;
 	} else {
 		return parent[x] = find(parent[x]);
@@ -25,13 +26,13 @@ void unionRoot(int x, int y) {
 	}
 }
 
-int kruskal() {
-	int weight = 0;
+ll kruskal() {
+	ll weight = 0;
 	int size = 0;
+
+	sort(edge.begin(), edge.end());
 	
-	for (int i = 0; i < e; i++) {
-		p n = edge[i];
-		
+	for (p n: edge) {
 		int f = n.second.first;
 		int s = n.second.second;
 		
