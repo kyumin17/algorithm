@@ -18,3 +18,4 @@
 - repeated squaring
 - extended euclidean algorithm
 - combination
+- miller rabin

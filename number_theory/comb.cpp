@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
-#define pii pair<int, int>
-#define pll pair<ll, ll>
 #define MOD 1000000007
 #define MAX 1000000
 
