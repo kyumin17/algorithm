@@ -13,6 +13,7 @@
 - dijkstra
 - floyd warshall
 - mst
+- lca
 
 ### number theory
 - repeated squaring
