@@ -1,6 +1,7 @@
 # Algorithm
 ### data structure
-- segment tree
+- segtree
+- lazy segtree
 
 ### dp
 - lis
